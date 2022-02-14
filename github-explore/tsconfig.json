@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],         /* vai permitir o use de alguns elementos da DOM */
+    "moduleResolution": "node",                       /* Specify how TypeScript looks up a file from a given module specifier. */
+    "strict": true,                                   /* Enable all strict type-checking options. */
+    "jsx": "react-jsx", 
+    "noEmit": true, 
+    "allowJs": true,                                  /* permiti que a nossa aplicação possa ter arquivos ts e js */
+    "resolveJsonModule": true,                        /* adiciona a possibilidade da gente importar arquivos json*/
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,             /* Allow 'import x from y' when a module doesn't have a default export. */
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  },
+  "include": ["src"]                                   /* informando aonde todo o nosso código vai está*/
+}
